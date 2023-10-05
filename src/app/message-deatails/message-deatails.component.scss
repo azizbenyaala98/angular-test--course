@@ -1,0 +1,40 @@
+/* Style the message card container */
+.message-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+  }
+  
+  /* Style the message header */
+  .message-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 6px 6px 0 0;
+  }
+  
+  /* Style the heading inside the message header */
+  .message-header h3 {
+    margin: 0;
+    font-size: 1.5rem;
+  }
+  
+  /* Style the paragraph inside the message header */
+  .message-header p {
+    margin: 0;
+  }
+  
+  /* Style the message content */
+  .message-content {
+    padding: 10px 0;
+  }
+  
+  /* Style paragraphs inside the message content */
+  .message-content p {
+    margin: 0;
+    line-height: 1.4;
+  }
+  

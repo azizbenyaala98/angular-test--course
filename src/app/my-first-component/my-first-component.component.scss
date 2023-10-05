@@ -1,0 +1,109 @@
+/* Apply styles to the form container */
+.form-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style labels and inputs within the form-group */
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Change the submit button's appearance on hover */
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* Style the Form data div */
+.form-display {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Style the headings in the Form data div */
+.form-display h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* Style the strong tags within the Form data div */
+.form-display strong {
+  color: #007bff;
+}
+
+/* Style the form display container */
+.form-display {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+/* Style the table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+/* Style table headers */
+th {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Style table cells */
+td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Style table rows */
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Style table rows on hover */
+tr:hover {
+  background-color: #ddd;
+}
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
