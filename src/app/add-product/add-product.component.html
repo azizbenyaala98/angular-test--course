@@ -1,0 +1,23 @@
+<div class="product-card-input">
+  <form (ngSubmit)="saveProduct()">
+    <label for="title">Title:</label>
+    <input type="text" id="title" [(ngModel)]="product.title">
+  
+    <label for="price">Price:</label>
+    <input type="number" id="price" [(ngModel)]="product.price">
+  
+    <label for="description">Description:</label>
+    <textarea id="description" [(ngModel)]="product.description"></textarea>
+  
+    <label for="category">Category:</label>
+    <input type="text" id="category" [(ngModel)]="product.category">
+  
+    <label for="image">Image URL:</label>
+    <input type="text" id="image" [(ngModel)]="product.image">
+  
+    
+    <button type="submit"  >submit </button>
+</form>  
+</div>
+ 
+  
