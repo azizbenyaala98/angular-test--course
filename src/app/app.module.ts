@@ -8,6 +8,9 @@ import { MyFirstComponentComponent } from './my-first-component/my-first-compone
 import { MessageDeatailsComponent } from './message-deatails/message-deatails.component';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { ProductsComponent } from './products/products.component';
+import { ProductDetailsComponent } from './product-details/product-details.component';
 
 @NgModule({
   declarations: [
@@ -15,14 +18,19 @@ import { AboutComponent } from './about/about.component';
     MyFirstComponentComponent,
     MessageDeatailsComponent,
     MenuComponent,
-    AboutComponent
+    AboutComponent,
+    ProductsComponent,
+    ProductDetailsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    AppRoutingModule, 
     FormsModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    HttpClient
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

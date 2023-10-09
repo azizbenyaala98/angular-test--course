@@ -1,0 +1,66 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 16px;
+    width: 300px;
+    background-color: #fff;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 16px;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    margin: 0;
+  }
+  
+  .card-description {
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #555;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    font-size: 0.9rem;
+    color: #333;
+  }
+  
+  .card-category {
+    flex-grow: 1;
+  }
+  
+  .card-price {
+    font-weight: bold;
+  }
+  
+  /* Assuming you want to style the .card-rating class */
+.card-rating {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  font-size: 1rem;
+  color: #f39c12; /* Example color for rating */
+}
+
+.card-rating span {
+  margin-right: 4px;
+}
+
+/* Style the star icons (assuming you're using font icons or SVGs for rating) */
+.card-rating .star-icon {
+  color: #f39c12; /* Color for filled stars */
+  font-size: 1.2rem; /* Adjust the size as needed */
+}

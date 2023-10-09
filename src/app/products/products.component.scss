@@ -1,0 +1,12 @@
+/* Style the product list container */
+.product-list {
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 16px; /* Add padding around the product list */
+    background-color: #f7f7f7; /* Set a background color for the product list */
+  }
+  
+  

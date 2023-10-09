@@ -1,0 +1,17 @@
+<div class="card">
+    <img [src]="product.image" [attr.alt]="product.title" class="card-image">
+    <div class="card-body">
+      <h2 class="card-title"> {{product.title}} </h2>
+      <p class="card-description"> {{product.description}} </p>
+      <div class="card-details">
+        <span class="card-category"> {{product.category}} </span>
+        <span class="card-price">$  {{product.price}} </span>
+      </div>
+      <div class="card-rating">
+        <!-- You can implement the rating component here -->
+        <span> {{product.rating?.rate}} </span>
+        <span> {{product.rating?.count}} </span>
+      </div>
+    </div>
+  </div>
+  
